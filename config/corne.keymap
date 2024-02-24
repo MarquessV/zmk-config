@@ -25,10 +25,10 @@
         hold-trigger-key-positions = <TRIGGER_POS>; \
         hold-trigger-on-release; \
     )
-MAKE_HRM(hml, &kp, &kp, KEYS_R THUMBS)  // left-hand HRMs
-MAKE_HRM(hmr, &kp, &kp, KEYS_L THUMBS)  // right-hand HRMs
-
 / {
+
+    MAKE_HRM(hml, &kp, &kp, KEYS_R THUMBS)  // left-hand HRMs
+    MAKE_HRM(hmr, &kp, &kp, KEYS_L THUMBS)  // right-hand HRMs
 
     keymap {
         compatible = "zmk,keymap";
@@ -88,5 +88,3 @@ MAKE_HRM(hmr, &kp, &kp, KEYS_L THUMBS)  // right-hand HRMs
         };
     };
 };
-
-/* vim: set ft=c tw=174: */
