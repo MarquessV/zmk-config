@@ -1,4 +1,5 @@
-# Example for using the keymap-drawer ZMK user config workflow
+on: [push, pull_request, workflow_dispatch]
+
 name: Draw ZMK keymaps
 on:
   workflow_dispatch:  # can be triggered manually
