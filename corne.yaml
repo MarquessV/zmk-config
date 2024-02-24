@@ -1,0 +1,164 @@
+layout: {qmk_keyboard: corne_rotated, qmk_layout: LAYOUT_split_3x6_3}
+layers:
+  base:
+  - [TAB, Q, W, E, R, T, Y, U, I, O]
+  - - P
+    - BSPC
+    - ESC
+    - {t: A, h: LGUI}
+    - {t: S, h: LALT}
+    - {t: D, h: LCTRL}
+    - {t: F, h: LSHFT}
+    - G
+    - H
+    - {t: J, h: RSHFT}
+  - - {t: K, h: RCTRL}
+    - {t: L, h: RALT}
+    - {t: ;, h: RGUI}
+    - ''''
+    - LSHFT
+    - Z
+    - X
+    - C
+    - V
+    - B
+  - - N
+    - M
+    - ','
+    - .
+    - /
+    - RSHFT
+    - LG(LS(LALT))
+    - nav
+    - SPACE
+    - {t: RET, h: sym}
+  - [num, RS(RA(RC(RGUI)))]
+  nav:
+  - - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - PP
+    - PREV
+    - NEXT
+    - {t: ▽, type: trans}
+  - - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - RGUI
+    - RALT
+    - LCTRL
+    - RSHFT
+    - {t: ▽, type: trans}
+    - LEFT
+    - DOWN
+  - - UP
+    - RIGHT
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - BT CLR
+    - {t: BT, h: '0'}
+    - {t: BT, h: '1'}
+    - {t: BT, h: '2'}
+    - {t: BT, h: '3'}
+    - {t: BT, h: '4'}
+  - - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {type: held}
+    - {t: ▽, type: trans}
+    - RET
+  - - {t: ▽, type: trans}
+    - RALT
+  num:
+  - - {t: ▽, type: trans}
+    - '['
+    - '7'
+    - '8'
+    - '9'
+    - ']'
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+  - - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - (
+    - '4'
+    - '5'
+    - '6'
+    - )
+    - {t: ▽, type: trans}
+    - LSHIFT
+  - - LCTRL
+    - LALT
+    - LGUI
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - '='
+    - '1'
+    - '2'
+    - '3'
+    - \
+  - - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - .
+    - '0'
+    - '-'
+    - RET
+  - - {type: held}
+    - RALT
+  sym:
+  - - {t: ▽, type: trans}
+    - LS(LBRC)
+    - LS(AMPS)
+    - LS(STAR)
+    - LS(LPAR)
+    - LS(RPAR)
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+  - - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - LS(COLON)
+    - LS(DLLR)
+    - LS(PRCNT)
+    - LS(CARET)
+    - LS(PLUS)
+    - {t: ▽, type: trans}
+    - RSHFT
+  - - LCTRL
+    - RALT
+    - RGUI
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - LS(TILDE)
+    - LS(EXCL)
+    - LS(AT)
+    - LS(POUND)
+    - LS(PIPE)
+  - - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - LS(LPAR)
+    - LS(RPAR)
+    - LS(UNDER)
+    - {type: held}
+  - - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
