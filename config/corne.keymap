@@ -158,7 +158,7 @@
 
             bindings = <
 &trans  &kp LBKT   &kp N7  &kp N8      &kp N9  &kp RBKT     &trans   &trans      &trans     &trans    &trans    &trans
-&trans  &kp sEMI   &kp N4  &kp N5      &kp N6  &kp EQUAL    &trans   &kp LSHIFT  &kp LCTRL  &kp LALT  &kp LGUI  &trans
+&trans  &kp SEMI   &kp N4  &kp N5      &kp N6  &kp EQUAL    &trans   &kp LSHIFT  &kp LCTRL  &kp LALT  &kp LGUI  &trans
 &trans  &kp TILDE  &kp N1  &kp N2      &kp N3  &kp BSLH     &trans   &trans      &trans     &trans    &trans    &trans
                            &kp PERIOD  &kp N0  &kp MINUS    &kp RET  &trans      &trans
             >;
